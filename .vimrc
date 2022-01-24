@@ -22,6 +22,7 @@ colorscheme onedark
 
 " Visual
 set number relativenumber
+set signcolumn=number
 set ruler
 set colorcolumn=80
 set cursorline
@@ -48,6 +49,9 @@ set hidden
 
 " Mappings
 nmap <Leader><Tab> :set invexpandtab<CR>:set expandtab?<CR>
+nmap <silent> <Leader>N <Plug>(coc-diagnostic-prev)
+nmap <silent> <Leader>n <Plug>(coc-diagnostic-next)
+nmap <silent> <Leader>d <Plug>(coc-definition)
 
 " ClangFormat
 function! Formatonsave()
