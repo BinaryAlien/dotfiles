@@ -10,14 +10,15 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'joshdick/onedark.vim'
+Plug 'sainnhe/everforest'
 
 call plug#end()
 
 runtime! ftplugin/man.vim
 
 " Colors
-set t_Co=256
 set background=dark
+set termguicolors
 colorscheme onedark
 
 " Visual
