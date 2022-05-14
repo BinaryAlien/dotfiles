@@ -50,10 +50,9 @@ set nobackup nowritebackup
 set hidden
 
 " Mappings
-nmap <Leader><Tab> :set invexpandtab<CR>:set expandtab?<CR>
-nmap <silent> <Leader>N <Plug>(coc-diagnostic-prev)
-nmap <silent> <Leader>n <Plug>(coc-diagnostic-next)
-nmap <silent> <Leader>d <Plug>(coc-definition)
+nnoremap <Leader><Tab> :set invexpandtab<CR>:set expandtab?<CR>
+nnoremap <silent> <Leader>N <Plug>(coc-diagnostic-prev)
+nnoremap <silent> <Leader>n <Plug>(coc-diagnostic-next)
 
 " ClangFormat
 function! Formatonsave()
