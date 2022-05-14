@@ -10,7 +10,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'joshdick/onedark.vim'
-Plug 'sainnhe/everforest'
 Plug 'vim-scripts/tabula.vim'
 
 call plug#end()
