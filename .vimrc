@@ -44,13 +44,6 @@ nnoremap <silent> <Leader><Return> :noh<CR>
 nnoremap <silent> <Leader>N <Plug>(coc-diagnostic-prev)
 nnoremap <silent> <Leader>n <Plug>(coc-diagnostic-next)
 
-augroup SaveActions
-	autocmd!
-
-	" trim trailing whitespaces
-	autocmd BufWritePre * %s/\s\+$//e
-augroup END
-
 augroup FileTypes
 	autocmd!
 
