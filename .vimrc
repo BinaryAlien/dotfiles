@@ -21,7 +21,7 @@ colorscheme PaperColor
 set number relativenumber ruler cursorline
 set colorcolumn=110
 set showmode showcmd laststatus=2
-set list listchars=tab:>\ ,space:.
+set list listchars=tab:>\ ,trail:.
 set signcolumn=number
 set scrolloff=3
 
