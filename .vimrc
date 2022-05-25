@@ -28,7 +28,7 @@ set scrolloff=3
 set autoindent expandtab tabstop=4 softtabstop=4 shiftwidth=4
 set backspace=start,eol,indent
 
-set ignorecase smartcase hlsearch noincsearch
+set ignorecase smartcase hlsearch incsearch
 
 set encoding=utf-8 fileencoding=utf-8
 set nobackup nowritebackup
