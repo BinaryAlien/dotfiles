@@ -44,6 +44,8 @@ nnoremap <silent> <Leader><Return> :noh<CR>
 nnoremap <silent> <Leader>N <Plug>(coc-diagnostic-prev)
 nnoremap <silent> <Leader>n <Plug>(coc-diagnostic-next)
 
+let g:netrw_liststyle=3
+
 augroup FileTypes
 	autocmd!
 
