@@ -1,6 +1,5 @@
 call plug#begin('~/.vim/plugged')
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot'
 
 Plug 'vim-airline/vim-airline'
@@ -40,9 +39,6 @@ set noesckeys timeoutlen=300
 
 nnoremap <silent> <Leader><Tab> :set invexpandtab<CR>
 nnoremap <silent> <Leader><Return> :noh<CR>
-
-nnoremap <silent> <Leader>N <Plug>(coc-diagnostic-prev)
-nnoremap <silent> <Leader>n <Plug>(coc-diagnostic-next)
 
 let g:netrw_liststyle=3
 
