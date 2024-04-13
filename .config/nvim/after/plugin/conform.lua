@@ -22,7 +22,7 @@ require('conform').setup({
   end,
 })
 
-vim.api.nvim_create_user_command('ConformToggleFormatOnSave', function(args)
+vim.api.nvim_create_user_command('ConformToggle', function(args)
   vim.g.disable_format_on_save = not vim.g.disable_format_on_save
   vim.api.nvim_echo({{'Format on save '}, {vim.g.disable_format_on_save and 'disabled' or 'enabled'}}, false, {})
-end, { desc = 'Toggles running the formatter on save' })
+end, { desc = 'Toggle format on save' })
