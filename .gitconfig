@@ -30,6 +30,7 @@
 	rb = rebase
 	rs = reset
 	rt = restore
+	rv = revert
 	s = status -s
 	st = stash
 	t = tag
