@@ -26,10 +26,7 @@ return require('packer').startup(function(use)
     requires = { 'nvim-tree/nvim-web-devicons', opt = true },
   }
 
-  use {
-    'stevearc/conform.nvim',
-    config = function() require('conform').setup() end,
-  }
+  use 'stevearc/conform.nvim'
 
   use {
     'VonHeikemen/lsp-zero.nvim',
