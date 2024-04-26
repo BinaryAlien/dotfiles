@@ -1,4 +1,29 @@
-require('nvim-tree').setup()
+require('nvim-tree').setup({
+  view = {
+    number = true,
+    relativenumber = true,
+  },
+  renderer = {
+    indent_markers = {
+      enable = true,
+    },
+    icons = {
+      show = {
+        folder_arrow = false,
+        diagnostics = false,
+      },
+    },
+  },
+  git = {
+    enable = false,
+  },
+  tab = {
+    sync = {
+      open = true,
+      close = true,
+    },
+  },
+})
 
 local api = require('nvim-tree.api')
 vim.keymap.set('n', '<Leader>t', api.tree.toggle, {})
