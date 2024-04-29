@@ -17,6 +17,12 @@ vim.opt.softtabstop = 4
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
+-- Diagnostics
+vim.diagnostic.config({
+  virtual_text = false,
+  severity_sort = true,
+})
+
 -- nvim-tree
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
