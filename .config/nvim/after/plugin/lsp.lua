@@ -6,7 +6,7 @@ end)
 
 lsp_zero.setup_servers({'ccls', 'nil_ls', 'pyright', 'tsserver'})
 
-require('lspconfig').rust_analyzer.setup({
+lsp_zero.configure('rust_analyzer', {
   settings = {
     ['rust-analyzer'] = {
       check = {
