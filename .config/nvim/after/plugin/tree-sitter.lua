@@ -20,7 +20,6 @@ require('nvim-treesitter.configs').setup({
       'query',
       'rust',
       'scala',
-      'tiger',
       'typescript',
       'vim',
       'vimdoc',
