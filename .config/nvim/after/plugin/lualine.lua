@@ -7,6 +7,8 @@ require('lualine').setup({
         path = 1,
       },
     },
+    lualine_x = {},
+    lualine_y = {},
   },
   inactive_sections = {
     lualine_c = {
