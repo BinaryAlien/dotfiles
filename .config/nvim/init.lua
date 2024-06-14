@@ -1,1 +1,1 @@
-require('binaryalien')
+require('config')
