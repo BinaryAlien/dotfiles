@@ -11,7 +11,7 @@ require('conform').setup({
   },
 
   format_on_save = function(bufnr)
-    if vim.g.disable_format_on_save then
+    if vim.g.conform_disable then
       return
     end
     return {
@@ -23,6 +23,6 @@ require('conform').setup({
 })
 
 vim.api.nvim_create_user_command('ConformToggle', function(args)
-  vim.g.disable_format_on_save = not vim.g.disable_format_on_save
-  vim.api.nvim_echo({{'Format on save '}, {vim.g.disable_format_on_save and 'disabled' or 'enabled'}}, false, {})
+  vim.g.conform_disable = not vim.g.conform_disable
+  vim.api.nvim_echo({{'Format on save '}, {vim.g.conform_disable and 'disabled' or 'enabled'}}, false, {})
 end, { desc = 'Toggle format on save' })
