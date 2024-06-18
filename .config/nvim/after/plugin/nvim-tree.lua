@@ -18,6 +18,11 @@ require('nvim-tree').setup({
   git = {
     enable = false,
   },
+  actions = {
+    open_file = {
+      resize_window = false,
+    },
+  },
   tab = {
     sync = {
       open = true,
