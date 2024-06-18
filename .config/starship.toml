@@ -4,6 +4,7 @@ format = """
 $directory\
 $nix_shell\
 $cmd_duration\
+$git_branch\
 $line_break\
 $jobs\
 $status\
