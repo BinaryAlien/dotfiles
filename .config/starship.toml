@@ -12,6 +12,7 @@ $character
 """
 
 [directory]
+truncation_length = 0
 style = "sapphire bold"
 
 [nix_shell]
