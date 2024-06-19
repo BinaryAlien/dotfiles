@@ -8,6 +8,13 @@ require('nvim-tree').setup({
     indent_markers = {
       enable = true,
     },
+    icons = {
+      glyphs = {
+        git = {
+          untracked = '',
+        },
+      },
+    },
   },
   actions = {
     open_file = {
