@@ -9,9 +9,6 @@ require('nvim-tree').setup({
       enable = true,
     },
   },
-  git = {
-    enable = false,
-  },
   actions = {
     open_file = {
       resize_window = false,
