@@ -23,6 +23,12 @@ vim.diagnostic.config({
   severity_sort = true,
 })
 
+local signs = {Error = '', Warn = '', Hint = '', Info = ''}
+for type, text in pairs(signs) do
+  local hl = 'DiagnosticSign' .. type
+  vim.fn.sign_define(hl, { numhl = hl, text = text, texthl = hl })
+end
+
 -- nvim-tree
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
