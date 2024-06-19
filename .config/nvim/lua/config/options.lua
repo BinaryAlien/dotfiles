@@ -11,7 +11,7 @@ vim.opt.backspace = ''
 vim.opt.expandtab = true
 vim.opt.mouse = ''
 vim.opt.shiftwidth = 4
-vim.opt.softtabstop = 4
+vim.opt.softtabstop = -1
 
 -- Search
 vim.opt.ignorecase = true
