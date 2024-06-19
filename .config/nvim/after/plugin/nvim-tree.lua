@@ -8,12 +8,6 @@ require('nvim-tree').setup({
     indent_markers = {
       enable = true,
     },
-    icons = {
-      show = {
-        folder_arrow = false,
-        diagnostics = false,
-      },
-    },
   },
   git = {
     enable = false,
