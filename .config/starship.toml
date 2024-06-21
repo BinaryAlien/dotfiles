@@ -1,10 +1,11 @@
-palette = "catppuccin_mocha"
+palette = "catppuccin_macchiato"
 
 format = """
-$directory\
 $nix_shell\
-$cmd_duration\
+$python\
+$directory\
 $git_branch\
+$cmd_duration\
 $line_break\
 $jobs\
 $status\
@@ -13,10 +14,22 @@ $character
 
 [directory]
 truncation_length = 0
-style = "sapphire bold"
+style = "bold sky"
 
 [nix_shell]
-symbol = " "
+format = '[$symbol]($style)'
+symbol = "󱄅 "
+
+[python]
+format = '[$symbol]($style)'
+style = "bold yellow"
+symbol = "󰌠 "
+
+[git_branch]
+style = "bold mauve"
+
+[cmd_duration]
+style = "bold maroon"
 
 [palettes.catppuccin_mocha]
 rosewater = "#f5e0dc"
