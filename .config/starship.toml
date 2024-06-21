@@ -21,9 +21,8 @@ format = '[$symbol]($style)'
 symbol = "󱄅 "
 
 [python]
-format = '[$symbol]($style)'
+format = '[(\($virtualenv\) )]($style)'
 style = "bold yellow"
-symbol = "󰌠 "
 
 [git_branch]
 style = "bold mauve"
